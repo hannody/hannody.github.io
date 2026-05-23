@@ -336,4 +336,3 @@ In a constrained environment, the right solution is not always the one the docum
 - [Kubernetes ServiceAccounts](https://kubernetes.io/docs/concepts/security/service-accounts/)
 - [Kubernetes RBAC](https://kubernetes.io/docs/reference/access-authn-authz/rbac/)
 - [Kubernetes Deployment Scaling](https://kubernetes.io/docs/tasks/run-application/scale-deployment/)
-
