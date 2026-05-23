@@ -1,3 +1,18 @@
+---
+title: "On-Demand Namespace Error Log Watcher in a Locked-Down Kubernetes Environment"
+date: 2026-05-23
+draft: false
+slug: "kubernetes-stern-error-watcher"
+tags:
+  - kubernetes
+  - stern
+  - logging
+  - rbac
+  - observability
+aliases:
+  - /posts/stern-ironlight-ai-error-watcher/
+---
+
 # On-Demand Namespace Error Log Watcher in a Locked-Down Kubernetes Environment
 
 During a large-scale stress test, the last thing you want is to be hunting errors across 150 pods manually.
