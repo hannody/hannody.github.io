@@ -1,32 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-  <channel>
-    <title>Posts on Welcome, my name is Mohanad Abu-Nayla</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Welcome, my name is Mohanad Abu-Nayla</description>
-    <generator>Hugo</generator>
-    <language>en-US</language>
-    <lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Test Markdown File</title>
-      <link>http://localhost:1313/posts/test/</link>
-      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/test/</guid>
-      <description>&lt;h3 id=&#34;this-is-a-test-markdown-file&#34;&gt;This is a test markdown file&lt;/h3&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Welcome, my name is Mohanad Abu-Nayla</title><link>https://hannody.github.io/posts/</link><description>Recent content in Posts on Welcome, my name is Mohanad Abu-Nayla</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hannody.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>Test Markdown File</title><link>https://hannody.github.io/posts/test/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://hannody.github.io/posts/test/</guid><description>&lt;h3 id="this-is-a-test-markdown-file"&gt;This is a test markdown file&lt;/h3&gt;
 &lt;p&gt;This file is used to test the markdown rendering capabilities of the system. It contains various markdown elements such as headings, lists, links, and code blocks.&lt;/p&gt;
-&lt;h4 id=&#34;heading-4&#34;&gt;Heading 4&lt;/h4&gt;
+&lt;h4 id="heading-4"&gt;Heading 4&lt;/h4&gt;
 &lt;p&gt;This is a heading level 4.&lt;/p&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;&#34;&gt;&lt;code class=&#34;language-python&#34; data-lang=&#34;python&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;def&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;hello_world&lt;/span&gt;():
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    print(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;)
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;hello_world()
+&lt;div class="highlight"&gt;&lt;pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"&gt;&lt;code class="language-python" data-lang="python"&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;&lt;span style="color:#66d9ef"&gt;def&lt;/span&gt; &lt;span style="color:#a6e22e"&gt;hello_world&lt;/span&gt;():
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt; print(&lt;span style="color:#e6db74"&gt;&amp;#34;Hello, World!&amp;#34;&lt;/span&gt;)
+&lt;/span&gt;&lt;/span&gt;&lt;span style="display:flex;"&gt;&lt;span&gt;hello_world()
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;This is a simple Python code block that defines a function to print &amp;ldquo;Hello, World!&amp;rdquo; and then calls the function.&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Item 1&lt;/li&gt;
 &lt;li&gt;Item 2&lt;/li&gt;
 &lt;li&gt;Item 3&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;This is a simple unordered list with three items.&lt;/p&gt;</description>
-    </item>
-  </channel>
-</rss>
+&lt;p&gt;This is a simple unordered list with three items.&lt;/p&gt;</description></item></channel></rss>
