@@ -15,7 +15,7 @@ jobs:
         with:
           hugo-version: latest
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --baseURL "https://hannody.github.io/"
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
