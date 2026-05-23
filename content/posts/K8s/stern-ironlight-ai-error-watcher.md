@@ -13,8 +13,6 @@ aliases:
   - /posts/stern-ironlight-ai-error-watcher/
 ---
 
-# On-Demand Namespace Error Log Watcher in a Locked-Down Kubernetes Environment
-
 During a large-scale stress test, the last thing you want is to be hunting errors across 150 pods manually.
 
 So I built an on-demand error log watcher for a complex Kubernetes namespace under real-world constraints, without touching anything outside the namespace, and without installing a single binary on the server.

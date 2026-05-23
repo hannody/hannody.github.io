@@ -1,1 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Tags on Welcome, my name is Mohanad Abu-Nayla</title><link>https://hannody.github.io/tags/</link><description>Recent content in Tags on Welcome, my name is Mohanad Abu-Nayla</description><generator>Hugo</generator><language>en-US</language><lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://hannody.github.io/tags/index.xml" rel="self" type="application/rss+xml"/><item><title>Kubernetes</title><link>https://hannody.github.io/tags/kubernetes/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://hannody.github.io/tags/kubernetes/</guid><description/></item><item><title>Logging</title><link>https://hannody.github.io/tags/logging/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://hannody.github.io/tags/logging/</guid><description/></item><item><title>Observability</title><link>https://hannody.github.io/tags/observability/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://hannody.github.io/tags/observability/</guid><description/></item><item><title>Rbac</title><link>https://hannody.github.io/tags/rbac/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://hannody.github.io/tags/rbac/</guid><description/></item><item><title>Stern</title><link>https://hannody.github.io/tags/stern/</link><pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate><guid>https://hannody.github.io/tags/stern/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Welcome, my name is Mohanad Abu-Nayla</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Welcome, my name is Mohanad Abu-Nayla</description>
+    <generator>Hugo</generator>
+    <language>en-US</language>
+    <lastBuildDate>Sat, 23 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Kubernetes</title>
+      <link>http://localhost:1313/tags/kubernetes/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/kubernetes/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Logging</title>
+      <link>http://localhost:1313/tags/logging/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/logging/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Observability</title>
+      <link>http://localhost:1313/tags/observability/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/observability/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Rbac</title>
+      <link>http://localhost:1313/tags/rbac/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/rbac/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Stern</title>
+      <link>http://localhost:1313/tags/stern/</link>
+      <pubDate>Sat, 23 May 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/tags/stern/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
