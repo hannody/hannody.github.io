@@ -1,0 +1,26 @@
+baseURL = "https://hannody.github.io/"
+title = "Welcome, my name is Mohanad Abu-Nayla"
+theme = "PaperMod"
+
+defaultContentLanguage = "en"
+
+[languages]
+  [languages.en]
+    label = "English"
+    locale = "en-US"
+    weight = 1
+
+[params]
+  profileMode.enabled = true
+  profileMode.title = "Mohanad"
+  profileMode.subtitle = "Senior Backend & AI Platform Engineer | Distributed Systems | LLM Deployment"
+
+[menu]
+[[menu.main]]
+  name = "Blog"
+  url = "/posts/"
+  weight = 1
+[[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 2
