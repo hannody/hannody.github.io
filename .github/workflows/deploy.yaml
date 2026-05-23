@@ -14,6 +14,8 @@ jobs:
       - uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: latest
+      - name: Build
+        run: hugo --minify
       - uses: peaceiris/actions-gh-pages@v4
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
