@@ -24,6 +24,11 @@ Senior Backend & AI Platform Engineer | Distributed Systems | LLM Deployment
 ## Articles
 """
 
+  # Site title in the header links here instead of home.
+  # Consumed by the layouts/_partials/header.html override.
+  [params.label]
+    url = "https://www.linkedin.com/in/abunayla/"
+
 [menu]
 [[menu.main]]
   name = "Blog"
