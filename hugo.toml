@@ -40,19 +40,25 @@ Python · Kubernetes · GPU Infrastructure · LLM/VLM Systems · OCR · FastAPI 
     url = "https://www.linkedin.com/in/abunayla/"
 
 [menu]
+# The logo/site title points off-site to LinkedIn, so Home is what gets you
+# back. The header partial renders it a house icon (see layouts/_partials).
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
 [[menu.main]]
   name = "Blog"
   url = "/posts/"
-  weight = 1
+  weight = 2
 [[menu.main]]
   name = "Tags"
   url = "/tags/"
-  weight = 2
+  weight = 3
 [[menu.main]]
   name = "About"
   url = "/about/"
-  weight = 3
+  weight = 4
 [[menu.main]]
   name = "X"
   url = "https://x.com/abunayla_"
-  weight = 4
+  weight = 5

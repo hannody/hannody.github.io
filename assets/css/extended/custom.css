@@ -17,3 +17,9 @@
     margin: 24px 0 0;
     font-size: 26px;
 }
+
+/* House icon on the Home nav entry. The nav renders inline, so nudge the
+   glyph onto the text baseline instead of sitting it on the bottom. */
+.menu .menu-icon {
+    vertical-align: -2px;
+}
