@@ -19,7 +19,10 @@
 }
 
 /* House icon on the Home nav entry. The nav renders inline, so nudge the
-   glyph onto the text baseline instead of sitting it on the bottom. */
+   glyph onto the text baseline instead of sitting it on the bottom. The gap
+   is a margin rather than an &nbsp; so there is no whitespace text node to
+   pick up an underline between the icon and the label. */
 .menu .menu-icon {
     vertical-align: -2px;
+    margin-right: 0.35rem;
 }
