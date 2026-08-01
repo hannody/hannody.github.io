@@ -1,5 +1,5 @@
 baseURL = "https://hannody.github.io/"
-title = "Welcome, my name is Mohanad Abu-Nayla"
+title = "Mohanad Abu-Nayla"
 theme = "PaperMod"
 
 defaultContentLanguage = "en"
@@ -16,10 +16,20 @@ defaultContentLanguage = "en"
 
   # Home page: intro block followed by all posts, newest first.
   # (PaperMod's profileMode renders the profile *instead of* the post list.)
+  # The name lives in the header (site.Title), so the h1 here does
+  # positioning work instead of repeating it. Full bio lives at /about/.
   [params.homeInfoParams]
-    Title = "Mohanad"
+    Title = "AI systems that hold up in production"
     Content = """
-Senior Backend & AI Platform Engineer | Distributed Systems | LLM Deployment
+I design and run LLM inference pipelines, OCR engines, and ML platforms on
+on-prem GPU Kubernetes clusters — for government, insurance, healthcare, and
+finance, where compliance is non-negotiable.
+
+When there's no established answer — new infrastructure, a new AI capability,
+a complex integration — I'm the one brought in to assess, decide, build, and
+deliver. [More about me →](/about/)
+
+Python · Kubernetes · GPU Infrastructure · LLM/VLM Systems · OCR · FastAPI · MLOps · Computer Vision · Observability
 
 ## Articles
 """
@@ -39,6 +49,10 @@ Senior Backend & AI Platform Engineer | Distributed Systems | LLM Deployment
   url = "/tags/"
   weight = 2
 [[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
+[[menu.main]]
   name = "X"
   url = "https://x.com/abunayla_"
-  weight = 3
+  weight = 4
