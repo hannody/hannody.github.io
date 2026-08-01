@@ -22,12 +22,12 @@ defaultContentLanguage = "en"
     Title = "AI systems that hold up in production"
     Content = """
 I design and run LLM inference pipelines, OCR engines, and ML platforms on
-on-prem GPU Kubernetes clusters — for government, insurance, healthcare, and
+on-prem GPU Kubernetes clusters, for government, insurance, healthcare, and
 finance, where compliance is non-negotiable.
 
-When there's no established answer — new infrastructure, a new AI capability,
-a complex integration — I'm the one brought in to assess, decide, build, and
-deliver. [More about me →](/about/)
+When there's no established answer, whether that's new infrastructure, a new
+AI capability, or a complex integration, I'm the one brought in to assess,
+decide, build, and deliver. [More about me](/about/)
 
 Python · Kubernetes · GPU Infrastructure · LLM/VLM Systems · OCR · FastAPI · MLOps · Computer Vision · Observability
 

@@ -7,12 +7,12 @@ hidemeta: true
 ---
 
 Within my organization, I act as a technical problem router. When there's no
-established answer — new infrastructure, new AI capability, or complex
-integrations — I'm brought in to assess, decide, build and deliver.
+established answer, whether that's new infrastructure, a new AI capability, or
+a complex integration, I'm brought in to assess, decide, build and deliver.
 
 I design and run production AI systems under real-world constraints: LLM
 inference pipelines, OCR engines, and ML platforms on on-prem GPU Kubernetes
-clusters — optimized for reliability, low latency, and cost efficiency in
+clusters, optimized for reliability, low latency, and cost efficiency in
 regulated environments.
 
 I focus on engineering that removes real friction: systems that don't just work
@@ -20,7 +20,7 @@ in demos, but hold up under production pressure, audit requirements, and
 real-world load.
 
 End-to-end, I cover system design, backend engineering, model deployment, and
-observability across ML and infrastructure layers — delivering for government,
+observability across ML and infrastructure layers, delivering for government,
 insurance, healthcare, and finance, where compliance is non-negotiable.
 
 **Core stack:** Python · Kubernetes · GPU Infrastructure · LLM/VLM Systems ·
