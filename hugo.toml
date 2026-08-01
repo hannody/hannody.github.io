@@ -38,3 +38,7 @@ Senior Backend & AI Platform Engineer | Distributed Systems | LLM Deployment
   name = "Tags"
   url = "/tags/"
   weight = 2
+[[menu.main]]
+  name = "X"
+  url = "https://x.com/abunayla_"
+  weight = 3

@@ -1,0 +1,19 @@
+/* Home page intro block — rendered by PaperMod's partials/home_info.html.
+   Loaded after the theme CSS, so these win without touching the theme. */
+
+/* PaperMod gives .first-entry `min-height: 320px` with `justify-content:
+   center`, which reserves a tall box and strands the "Articles" label in
+   dead space above the cards. Let the block collapse to its content. */
+.home-info.first-entry {
+    min-height: unset;
+    margin-bottom: var(--gap);
+}
+
+/* .md-content h2 ships with `margin: 32px auto 24px`. Those auto side
+   margins centre the heading, because .entry-content is a -webkit-box
+   formatting context (the theme uses it for line-clamping). Pin it to the
+   left edge, in line with the name and the post titles. */
+.home-info .entry-content h2 {
+    margin: 24px 0 0;
+    font-size: 26px;
+}
