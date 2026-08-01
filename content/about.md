@@ -28,6 +28,9 @@ OCR · FastAPI · MLOps · Computer Vision · Observability
 
 ## Elsewhere
 
+<!-- Keep the X link text from being a bare "X": "- [X]" is a GFM task-list
+     marker, so goldmark renders a checkbox instead of a link. -->
+
 - [LinkedIn](https://www.linkedin.com/in/abunayla/)
-- [X](https://x.com/abunayla_)
+- [X (Twitter)](https://x.com/abunayla_)
 - [GitHub](https://github.com/hannody)
