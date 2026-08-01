@@ -11,9 +11,14 @@ defaultContentLanguage = "en"
     weight = 1
 
 [params]
-  profileMode.enabled = true
-  profileMode.title = "Mohanad"
-  profileMode.subtitle = "Senior Backend & AI Platform Engineer | Distributed Systems | LLM Deployment"
+  mainSections = ["posts"]
+  ShowReadingTime = true
+
+  # Home page: intro block followed by all posts, newest first.
+  # (PaperMod's profileMode renders the profile *instead of* the post list.)
+  [params.homeInfoParams]
+    Title = "Mohanad"
+    Content = "Senior Backend & AI Platform Engineer | Distributed Systems | LLM Deployment"
 
 [menu]
 [[menu.main]]
