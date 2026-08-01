@@ -18,7 +18,11 @@ defaultContentLanguage = "en"
   # (PaperMod's profileMode renders the profile *instead of* the post list.)
   [params.homeInfoParams]
     Title = "Mohanad"
-    Content = "Senior Backend & AI Platform Engineer | Distributed Systems | LLM Deployment"
+    Content = """
+Senior Backend & AI Platform Engineer | Distributed Systems | LLM Deployment
+
+## Articles
+"""
 
 [menu]
 [[menu.main]]
