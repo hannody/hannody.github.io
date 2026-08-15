@@ -11,19 +11,15 @@ tags:
   - developer-workflow
 ---
 
-I was trying to get a coding agent to fix a few notebook cells, and it asked me to copy-paste snippets just so it could figure out which ones I meant. It worked, but it felt like a step backward. I knew exactly which cells I meant, but I had no direct way to point to them. Why does referencing a specific cell still require manual copy-pasting?
+I was trying to get a coding agent to fix a few notebook cells, and it asked me to copy-paste snippets just so it could figure out which ones I meant. It worked, but it felt like a step backward. I knew exactly which cells I meant, but I had no direct way to point to them.
 
-Usually, we point agents to notebook cells indirectly: *the cell that loads the dataset*, *the cell that does the groupby and filtering*, and so on. Some agents are smart enough to figure it out by inspecting the notebook, looking at the selected cell, or running a little Python to find the cell.
+Usually, we point agents to notebook cells indirectly: *the cell that loads the dataset*, *the cell that does the groupby and filtering*, and so on. It works, but it is not a great way to address a cell. Insert a cell, delete one, or reorder the notebook, and positional references change. Descriptions can also be ambiguous when several cells look similar.
 
-It works, but it is not a great way to address a cell. Insert a cell, delete one, or reorder the notebook, and positional references change. Descriptions can also be ambiguous when several cells look similar.
-
-Then I noticed something interesting while watching the agent work: **it was already using the cell's `id` to find the cells I was talking about.**
-
-The agent had a precise identifier for the cell. I did not.
+Then I noticed something interesting while watching the agent work: **it was already using the cell's `id` to find the cells I was talking about.** The agent had a precise identifier for the cell. I did not.
 
 That got me thinking: why can't we use the same language?
 
-Instead of pasting an entire cell or describing which one I mean, I should be able to say:
+With cell ID I should be able to say:
 
 > Fix cell `e66c99c5`. The groupby looks wrong.
 
@@ -65,37 +61,13 @@ Click it and the id is copied.
 
 There are also two Command Palette commands:
 
-* **Notebook: Copy Cell Id**
-* **Notebook: Copy Cell Id with Notebook Path**
+* **Notebook: Copy Cell Id** → `e66c99c5`
+* **Notebook: Copy Cell Id with Notebook Path** → `article_mat/v2_nb/step_3.ipynb cell e66c99c5`
 
-The second one gives you something like:
+The source is available on [GitHub](https://github.com/hannody/vscode-notebook-cell-id) under the MIT license.
 
-```text
-notebooks/step_3.ipynb cell e66c99c5
-```
-
-This is useful when the agent is working across multiple notebooks.
-
-The index is optional, and the status bar item can be disabled if you do not want it visible. The commands remain available.
-
-## How it works
-
-The extension is deliberately simple.
-
-VS Code's built-in notebook support exposes the nbformat cell id through `NotebookCell.metadata.id`, so the extension does not parse `.ipynb` files or maintain its own mapping.
-
-It simply uses `NotebookCellStatusBarItemProvider` to display the id belonging to each cell.
-
-Move a cell, add one, delete one, and the reference follows the cell. VS Code's notebook serializer preserves the id when the notebook is saved.
-
-The entire extension is roughly a hundred lines of plain JavaScript with no build step. The source is available on [GitHub](https://github.com/hannody/vscode-notebook-cell-id) under the MIT license.
-
-One caveat: cells only carry ids in **nbformat 4.5 and newer**. Older notebooks show no badges — but re-saving them in any current Jupyter or VS Code adds ids to every cell, so the fix is one save away.
+One caveat: cells only carry ids in **nbformat 4.5 and newer** - older notebooks show no badges until we re-save them.
 
 [Install Notebook Cell Id](https://marketplace.visualstudio.com/items?itemName=Mohanad-Abu-Nayla.notebook-cell-id)
 
-Sometimes the information you need is already there.
-
-The agent can see it.
-
-I just wanted to see it too.
+Sometimes the information we need is already there ;)
