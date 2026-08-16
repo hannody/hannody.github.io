@@ -1,1 +1,5 @@
 content/posts/.DS_Store
+.DS_Store
+/public/
+/resources/
+.hugo_build.lock
