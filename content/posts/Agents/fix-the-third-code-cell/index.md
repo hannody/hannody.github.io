@@ -59,10 +59,22 @@ Each cell gets a small badge such as:
 
 Click it and the id is copied.
 
-There are also two Command Palette commands:
+There are also Command Palette commands:
 
 * **Notebook: Copy Cell Id** → `e66c99c5`
 * **Notebook: Copy Cell Id with Notebook Path** → `article_mat/v2_nb/step_3.ipynb cell e66c99c5`
+
+Copying the id was only half the loop, though. The other half is going back the other way: the agent hands you a cell id, and you need to land on that exact cell.
+
+## Find Cell by Id
+
+That's the newest addition: **Notebook: Find Cell by Id**. Run it, paste in an id, and VS Code selects and scrolls to that cell.
+
+It's bound to `Ctrl+Alt+F` (`Cmd+Alt+F` on macOS) while a notebook is focused - `Ctrl+F` was left alone since VS Code already uses it for the built-in text find widget. It's also one click away as a button in the notebook's top toolbar, right next to `+Code` / `+Markdown`:
+
+![The notebook toolbar with a highlighted "Find Cell by Id" button between "Clear All Outputs" and "Outline"](find-cell-toolbar.png)
+
+So the id now works both ways. The agent tells me `e66c99c5` is the problem cell, and I jump straight to it - no scrolling, no "which one is that again."
 
 The source is available on [GitHub](https://github.com/hannody/vscode-notebook-cell-id) under the MIT license.
 
