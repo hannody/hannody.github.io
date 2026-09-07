@@ -1,5 +1,6 @@
 ---
 title: "On-Demand Namespace Error Log Watcher in a Locked-Down Kubernetes Environment"
+description: "Tailing errors across 150 pods in a locked-down namespace, using Stern as a scale-to-zero Deployment with namespace-scoped RBAC and nothing on the nodes."
 date: 2026-05-23
 draft: false
 slug: "kubernetes-stern-error-watcher"

@@ -1,5 +1,6 @@
 ---
 title: "Spec-Driven Development with AI Agents: Constitutions, Checkpoints, and Handoffs"
+description: "How I keep a coding agent on track through a feature that takes days, using a constitution, a frozen plan, review-sized checkpoints and written handoffs."
 date: 2026-08-01
 draft: false
 slug: "spec-driven-development-with-ai-agents"

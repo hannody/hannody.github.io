@@ -1,5 +1,6 @@
 ---
 title: "Before You Train, Audit: A TinyStories Case Study"
+description: "A quick audit of the TinyStories parquet train split found 320,470 exact duplicate stories and 230 empty rows out of 2.1 million."
 date: 2026-05-30
 draft: false
 slug: "before-you-train-audit-tinystories"
