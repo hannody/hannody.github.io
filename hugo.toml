@@ -15,6 +15,7 @@ enableGitInfo = true
 # First hit wins. An explicit lastmod beats :git, so a commit that touches a file
 # without changing what it says (a front-matter edit, a typo fix) cannot claim to
 # be a modification. Posts without the field still get their date from :git.
+# lastmod pins in post front matter are temporary (undo 7a17e49); delete the field on the next real edit to that post.
 [frontmatter]
   lastmod = ["lastmod", ":git", "date", "publishDate"]
 
