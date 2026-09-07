@@ -1,0 +1,17 @@
+# Mohanad Abu-Nayla
+
+> Notes on production AI infrastructure, agentic development workflows, and LLMOps from an
+> engineer who designs and runs LLM inference pipelines, OCR engines, and ML platforms on
+> on-prem GPU Kubernetes clusters in regulated environments.
+
+## Posts
+
+- [Spec-Driven Development with AI Agents](https://hannody.github.io/posts/agents/spec-driven-development-with-ai-agents/): Constitution → spec → frozen plan → checkpointed implementation, with structured handoff documents that carry state between agent sessions instead of relying on the context window.
+- [Fix the Third Code Cell](https://hannody.github.io/posts/agents/fix-the-third-code-cell/): Jupyter cells have had a stable `id` since nbformat 4.5 and agents already use it internally; addressing cells by id beats positional or descriptive references that break on insert, delete, or reorder.
+- [Before You Train, Audit: A TinyStories Case Study](https://hannody.github.io/posts/ai/training/before-you-train-audit-tinystories/): An EDA pass on the TinyStories parquet train split found 320,470 exact duplicate stories and 230 empty rows out of 2.1 million, with a reproducible pandas/PyArrow script and the dedup fix.
+- [On-Demand Namespace Error Log Watcher in a Locked-Down Kubernetes Environment](https://hannody.github.io/posts/k8s/kubernetes-stern-error-watcher/): Running Stern as a scale-to-zero in-cluster Deployment to tail errors across 150 pods, with namespace-scoped RBAC and no binaries installed on the nodes.
+
+## Optional
+
+- [About](https://hannody.github.io/about/)
+- [All posts](https://hannody.github.io/posts/)
