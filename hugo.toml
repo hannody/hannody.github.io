@@ -8,6 +8,14 @@ defaultContentLanguage = "en"
 # none otherwise. See layouts/robots.txt for the body.
 enableRobotsTXT = true
 
+# Real dateModified/lastmod from commit timestamps instead of the front-matter
+# date. Needs full git history: see fetch-depth in .github/workflows/deploy.yaml.
+enableGitInfo = true
+
+# First hit wins. :git falls back to an explicit front-matter lastmod, then date.
+[frontmatter]
+  lastmod = [":git", "lastmod", "date", "publishDate"]
+
 [languages]
   [languages.en]
     label = "English"
@@ -17,6 +25,19 @@ enableRobotsTXT = true
 [params]
   mainSections = ["posts"]
   ShowReadingTime = true
+
+  # Consumed by PaperMod's templates/schema_json.html: author feeds
+  # BlogPosting.author, schema.publisherType the publisher block (a one-person
+  # blog is a Person, not an Organization), sameAs the identity links.
+  author = "Mohanad Abu-Nayla"
+
+  [params.schema]
+    publisherType = "Person"
+    sameAs = [
+      "https://www.linkedin.com/in/abunayla/",
+      "https://x.com/abunayla_",
+      "https://github.com/hannody",
+    ]
 
   # Home page: intro block followed by all posts, newest first.
   # (PaperMod's profileMode renders the profile *instead of* the post list.)
