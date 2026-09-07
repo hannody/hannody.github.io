@@ -4,6 +4,10 @@ theme = "PaperMod"
 
 defaultContentLanguage = "en"
 
+# Hugo emits public/robots.txt only when this is true; GitHub Pages serves
+# none otherwise. See layouts/robots.txt for the body.
+enableRobotsTXT = true
+
 [languages]
   [languages.en]
     label = "English"
