@@ -2,6 +2,7 @@
 title: "Fix the Third Code Cell"
 description: "Jupyter cells have had a stable id since nbformat 4.5 and coding agents already use it, so you can point at a cell by id instead of describing it."
 date: 2026-08-15
+lastmod: 2026-08-16T22:17:57+08:00
 draft: false
 slug: "fix-the-third-code-cell"
 tags:

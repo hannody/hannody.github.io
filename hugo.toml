@@ -12,9 +12,11 @@ enableRobotsTXT = true
 # date. Needs full git history: see fetch-depth in .github/workflows/deploy.yaml.
 enableGitInfo = true
 
-# First hit wins. :git falls back to an explicit front-matter lastmod, then date.
+# First hit wins. An explicit lastmod beats :git, so a commit that touches a file
+# without changing what it says (a front-matter edit, a typo fix) cannot claim to
+# be a modification. Posts without the field still get their date from :git.
 [frontmatter]
-  lastmod = [":git", "lastmod", "date", "publishDate"]
+  lastmod = ["lastmod", ":git", "date", "publishDate"]
 
 [languages]
   [languages.en]
