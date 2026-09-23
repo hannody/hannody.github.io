@@ -120,6 +120,18 @@ https://hannody.github.io/posts/<topic>/<slug>/
 
 If the old version still shows in your browser, hard refresh (Cmd+Shift+R) or open a private window.
 
+## 10. Request indexing (optional)
+
+Nothing to do by default: Hugo regenerates `sitemap.xml` on every build, and Google
+picks up new posts from it and from the home page within days to a couple of weeks.
+
+To get a post into search faster (e.g. before sharing it on LinkedIn or X), open
+[Google Search Console](https://search.google.com/search-console) for `https://hannody.github.io/`,
+paste the post URL into **Inspect any URL**, and click **Request indexing**.
+
+Ownership is verified by `static/google69e83f8d378c1d4d.html`. Don't delete it, or the
+property loses verification.
+
 ## Troubleshooting
 
 | Symptom                          | Likely cause                              | Fix                                                                                                                                            |
