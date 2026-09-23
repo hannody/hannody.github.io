@@ -29,6 +29,10 @@ enableGitInfo = true
   mainSections = ["posts"]
   ShowReadingTime = true
 
+  # Meta/og description for pages without their own: home, tag and taxonomy
+  # lists. Posts and /about/ set description in front matter.
+  description = "Notes on production AI infrastructure, agentic development, and LLMOps: LLM inference, OCR, and ML platforms on on-prem GPU Kubernetes clusters."
+
   # Consumed by PaperMod's templates/schema_json.html: author feeds
   # BlogPosting.author, schema.publisherType the publisher block (a one-person
   # blog is a Person, not an Organization), sameAs the identity links.

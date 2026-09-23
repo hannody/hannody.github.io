@@ -1,6 +1,8 @@
 ---
 title: "About"
+description: "Mohanad Abu-Nayla designs and runs production AI systems: LLM inference pipelines, OCR engines, and ML platforms on on-prem GPU Kubernetes in regulated industries."
 date: 2026-08-01
+lastmod: 2026-08-01T21:22:13+08:00
 draft: false
 slug: "about"
 hidemeta: true
